@@ -152,15 +152,15 @@ class Male extends Human
     }
 }
 
-$human1 = new Male("Jonathan", 25, "black", "brown", true, true, true);
-$human2 = new Female("Mary", 22, "black", "brown", true, true, true);
-$human2->setHeight(1.84, "cm");
-$human2->setWeight(75, "kg");
-echo $human2->getName();
-echo $human2->getAge();
-echo $human2->getHairColor();
-echo $human2->getEyesColor();
-$human2->displayInfo();
-foreach ($human2->getHeight() as $height) {
-    echo "\n" . $height["height"] . " " . $height["measure"];
-}
+// $human1 = new Male("Jonathan", 25, "black", "brown", true, true, true);
+// $human2 = new Female("Mary", 22, "black", "brown", true, true, true);
+// $human2->setHeight(1.84, "cm");
+// $human2->setWeight(75, "kg");
+// echo $human2->getName();
+// echo $human2->getAge();
+// echo $human2->getHairColor();
+// echo $human2->getEyesColor();
+// $human2->displayInfo();
+// foreach ($human2->getHeight() as $height) {
+//     echo "\n" . $height["height"] . " " . $height["measure"];
+// }
